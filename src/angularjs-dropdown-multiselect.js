@@ -1,5 +1,6 @@
 'use strict';
 
+var _ = require('lodash');
 var directiveModule = angular.module('angularjs-dropdown-multiselect', []);
 
 directiveModule.directive('ngDropdownMultiselect', ['$filter', '$document', '$compile', '$parse',
